@@ -4,6 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 
 import MobileMenu from './MobileMenu'
 import NavbarItem from './NavbarItem'
+import Link from 'next/link'
 
 const TOP_OFFSET = 66
 
@@ -38,7 +39,13 @@ const Navbar = () => {
           showBackground ? 'bg-zinc-900 bg-opacity-90' : ''
         }`}
       >
-        <img className='h-4 lg:h-7' src='/assets/images/logo.png' alt='Logo' />
+        <Link href='/'>
+          <img
+            className='h-4 lg:h-7'
+            src='/assets/images/logo.png'
+            alt='Logo'
+          />
+        </Link>
         <div className='flex-row ml-8 gap-7 hidden lg:flex'>
           <NavbarItem label='Home' />
           <NavbarItem label='Projects' />
