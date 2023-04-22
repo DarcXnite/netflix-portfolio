@@ -69,7 +69,7 @@ const Navbar = () => {
         <div className='flex flex-row ml-auto gap-7 items-center'>
           <div className='text-gray-200 hover:text-gray-300 cursor-pointer transition'>
             <a href='https://github.com/DarcXnite' target='_blank'>
-              <BsGithub />
+              <BsGithub size={30} />
             </a>
           </div>
           <div className='text-gray-200 hover:text-gray-300 cursor-pointer transition'>
@@ -77,12 +77,12 @@ const Navbar = () => {
               href='https://www.linkedin.com/in/davis-nguyen-98345720b/'
               target='_blank'
             >
-              <BsLinkedin />
+              <BsLinkedin size={30} />
             </a>
           </div>
           <div className='text-gray-200 hover:text-gray-300 cursor-pointer transition'>
             <a href='mailto:davisnguyen98@gmail.com'>
-              <AiOutlineMail />
+              <AiOutlineMail size={30} />
             </a>
           </div>
         </div>

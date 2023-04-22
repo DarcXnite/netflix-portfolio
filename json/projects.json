@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "DevConnect",
+    "thumbnail": "/assets/images/devconnect.png",
+    "link": "https://www.google.com/",
+    "gitHub": "https://www.amazon.com"
+  },
+  {
+    "id": 2,
+    "name": "Star Wars Sheets",
+    "thumbnail": "/assets/images/swcs.png",
+    "link": "https://www.google.com/",
+    "gitHub": "https://www.amazon.com"
+  },
+  {
+    "id": 3,
+    "name": "Wordle Clone",
+    "thumbnail": "/assets/images/wordle-clone-picture.png",
+    "link": "https://www.google.com/",
+    "gitHub": "https://www.amazon.com"
+  },
+  {
+    "id": 4,
+    "name": "Simon Says",
+    "thumbnail": "/assets/images/simonsays.PNG",
+    "link": "https://www.google.com/",
+    "gitHub": "https://www.amazon.com"
+  }
+]
