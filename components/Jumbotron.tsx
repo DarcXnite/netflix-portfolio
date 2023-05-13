@@ -1,31 +1,28 @@
 import useInfoModal from '@/hooks/useInfoModal'
-import React, { useCallback } from 'react'
+import React, { useCallback, useRef } from 'react'
 
 import { BsInfoCircle } from 'react-icons/bs'
 
 interface JumbotronProps {
-  bio: object
+  bio: object[]
 }
 
 const Jumbotron: React.FC<JumbotronProps> = ({ bio }) => {
+  const video = useRef<HTMLVideoElement>(null!)
   const { openModal } = useInfoModal()
 
-  let play = false
-
-  const handleOpenModal = useCallback(
-    (e: any) => {
-      openModal(bio)
-    },
-    [openModal, bio]
-  )
+  const handleOpenModal = useCallback(() => {
+    openModal(0, bio)
+  }, [openModal, bio])
 
   return (
     <div className='relative h-[56.25vw]'>
       <video
+        ref={video}
         className='w-full h-[56.25vw] object-cover brightness-[60%]'
         src='/assets/videos/matrix-video.mp4'
         poster='/assets/images/matrix.png'
-        autoPlay={play ? true : false}
+        autoPlay
         muted
         loop
       ></video>

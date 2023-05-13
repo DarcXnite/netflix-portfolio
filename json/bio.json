@@ -1,6 +1,11 @@
-{
-  "id": "1",
-  "fName": "Davis",
-  "lName": "Nguyen",
-  "description": "I am a software developer from Chicago."
-}
+[
+  {
+    "id": 1,
+    "fName": "Davis",
+    "lName": "Nguyen",
+    "description": "As a software engineer from Chicago with a background in film & video and hospitality, I bring a unique set of skills to the table. My diverse experiences have provided me with a well-rounded understanding of the development process, while also enabling me to maintain a client-focused approach. I excel in product management, sales, marketing, and personalized customer support, and leverage these skills to drive results and exceed expectations. I am deeply committed to delivering exceptional user experiences and am fueled by my passion for innovation. With a proven track record of success and a dedication to achieving excellence in all of my endeavors, I am confident in my ability to make a meaningful contribution to any team.",
+    "github": "https://github.com/DarcXnite",
+    "email": "mailto:davisnguyen98@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/davis-nguyen-98345720b/"
+  }
+]

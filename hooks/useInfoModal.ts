@@ -1,21 +1,29 @@
 import { create } from 'zustand'
 
 export interface ModalStoreInterface {
-  data?: {
+  id?: number
+  details: {
+    id?: number
     fName?: string
     lName?: string
     description?: string
+    link?: string
+    github?: string
+    email?: string
+    linkedin?: string
   }
   isOpen: boolean
-  openModal: (data: object) => void
+  openModal: (id: number, data: object[]) => void
   closeModal: () => void
 }
 
 const useInfoModal = create<ModalStoreInterface>(set => ({
-  data: {},
+  id: undefined,
+  details: {},
   isOpen: false,
-  openModal: data => set({ isOpen: true, data }),
-  closeModal: () => set({ isOpen: false, data: {} }),
+  openModal: (id: number, data: object[]) =>
+    set({ isOpen: true, details: data[id] }),
+  closeModal: () => set({ isOpen: false, id: undefined }),
 }))
 
 export default useInfoModal

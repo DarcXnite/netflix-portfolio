@@ -3,7 +3,18 @@
     "id": 1,
     "name": "LinkedIn",
     "thumbnail": "",
-    "link": "https://www.linkedin.com/in/davis-nguyen-98345720b/",
-    "gitHub": ""
+    "link": "https://www.linkedin.com/in/davis-nguyen-98345720b/"
+  },
+  {
+    "id": 2,
+    "name": "GitHub",
+    "thumbnail": "",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "name": "Email",
+    "thumbnail": "",
+    "link": "davisnguyen98@gmail.cok"
   }
 ]

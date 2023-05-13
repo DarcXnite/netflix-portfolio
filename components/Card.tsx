@@ -24,14 +24,19 @@ const Card: React.FC<CardListProps> = ({
         />
         <div className='z-10 bg-zinc-800 p-2 lg:p-4 absolute w-full transition shadow-md rounded-b-md'>
           <div className='flex flex-row items-center gap-3'>
-            <Link href={link} target='_blank'>
-              <div
-                className='cursor-pointer w-6 h-6 lg:w-10 bg-white lg:h-10 rounded-full flex justify-center items-center transition hover:bg-neutral-300'
-                onClick={() => {}}
-              >
-                <AiOutlineLink size={30} />
-              </div>
-            </Link>
+            {link ? (
+              <Link href={link} target='_blank'>
+                <div
+                  className='cursor-pointer w-6 h-6 lg:w-10 bg-white lg:h-10 rounded-full flex justify-center items-center transition hover:bg-neutral-300'
+                  onClick={() => {}}
+                >
+                  <AiOutlineLink size={30} />
+                </div>
+              </Link>
+            ) : (
+              ''
+            )}
+
             {gitHub ? (
               <Link href={link} target='_blank'>
                 <div

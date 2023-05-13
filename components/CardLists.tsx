@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from './Card'
 
+import { HiOutlineChevronLeft, HiOutlineChevronRight } from 'react-icons/hi'
+
 interface CardListsProps {
   title: string
   details: Record<string, any>[]

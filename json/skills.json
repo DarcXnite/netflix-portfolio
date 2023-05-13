@@ -4,5 +4,119 @@
     "name": "Next.js",
     "thumbnail": "/assets/images/nextjs.jpeg",
     "link": "https://nextjs.org/"
+  },
+  {
+    "id": 2,
+    "name": "React",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 4,
+    "name": "Python",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 5,
+    "name": "JavaScript",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 6,
+    "name": "PHP",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 7,
+    "name": "HTML",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 8,
+    "name": "CSS",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 9,
+    "name": "noSQL",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 10,
+    "name": "SQL",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 11,
+    "name": "TailwindCSS",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 12,
+    "name": "Node.js",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 13,
+    "name": "Express.js",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 14,
+    "name": "Sequelize",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 15,
+    "name": "Mongoose",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 16,
+    "name": "MongoDB",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 17,
+    "name": "PostgreSQL",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 18,
+    "name": "Ajax",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 19,
+    "name": "Axios",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
+  },
+  {
+    "id": 20,
+    "name": "Git",
+    "thumbnail": "/assets/images/nextjs.jpeg",
+    "link": "https://nextjs.org/"
   }
 ]

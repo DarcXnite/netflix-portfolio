@@ -1,8 +1,14 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import Link from 'next/link'
-import { AiOutlineClose, AiFillGithub, AiOutlineLink } from 'react-icons/ai'
+import {
+  AiOutlineClose,
+  AiFillGithub,
+  AiOutlineLink,
+  AiOutlineMail,
+} from 'react-icons/ai'
+import { GrLinkedinOption } from 'react-icons/gr'
 
 import useInfoModal from '@/hooks/useInfoModal'
+import Button from './Button'
 
 interface InfoModalProps {
   visible?: boolean
@@ -12,12 +18,11 @@ interface InfoModalProps {
 const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
   const [isVisible, setIsVisible] = useState(!!visible)
 
-  const { data } = useInfoModal()
+  const { details, isOpen } = useInfoModal()
 
   useEffect(() => {
     setIsVisible(!!visible)
-    console.log(data?.description)
-  }, [visible, data])
+  }, [visible, details])
 
   const handleClose = useCallback(() => {
     setIsVisible(false)
@@ -57,31 +62,34 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
                 Matrix
               </p>
               <div className='flex flex-row gap-4 items-center'>
-                <Link href='#' target='_blank'>
-                  <div
-                    className='cursor-pointer w-6 h-6 lg:w-10 bg-white lg:h-10 rounded-full flex justify-center items-center transition hover:bg-neutral-300'
-                    onClick={() => {}}
-                  >
-                    <AiOutlineLink size={30} />
-                  </div>
-                </Link>
-                {/* {gitHub ? (
-                  <Link href='#' target='_blank'>
-                    <div
-                      className='cursor-pointer w-6 h-6 lg:w-10 bg-white lg:h-10 rounded-full flex justify-center items-center transition hover:bg-neutral-300'
-                      onClick={() => {}}
-                    >
-                      <AiFillGithub size={30} />
-                    </div>
-                  </Link>
+                {details?.link ? (
+                  <Button link={details?.link} Type={AiOutlineLink} />
                 ) : (
                   ''
-                )} */}
+                )}
+
+                {details?.github ? (
+                  <Button link={details?.github} Type={AiFillGithub} />
+                ) : (
+                  ''
+                )}
+
+                {details?.linkedin ? (
+                  <Button link={details?.linkedin} Type={GrLinkedinOption} />
+                ) : (
+                  ''
+                )}
+
+                {details?.email ? (
+                  <Button link={details?.email} Type={AiOutlineMail} />
+                ) : (
+                  ''
+                )}
               </div>
             </div>
           </div>
           <div className='px-12 py-8'>
-            <p className='text-white text-lg'>INFO{data?.description}</p>
+            <p className='text-white text-lg'>{details?.description}</p>
           </div>
         </div>
       </div>
