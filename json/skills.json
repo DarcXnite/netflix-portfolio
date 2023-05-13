@@ -3,120 +3,140 @@
     "id": 1,
     "name": "Next.js",
     "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "link": "https://nextjs.org/",
+    "description": "Next.js is a React framework that allows for server-side rendering, static site generation, and client-side rendering. It simplifies the creation of complex React applications by providing a range of helpful features such as automatic code splitting, optimized performance, and simplified routing. With Next.js, developers can build powerful, scalable web applications with ease."
   },
   {
     "id": 2,
     "name": "React",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/react.jpeg",
+    "link": "https://nextjs.org/",
+    "description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of an application efficiently. React uses a virtual DOM to update only the necessary parts of the UI, resulting in faster rendering and better performance."
   },
   {
     "id": 3,
     "name": "TypeScript",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/typescript.png",
+    "link": "https://nextjs.org/",
+    "description": "TypeScript is a superset of JavaScript that adds optional static typing. It offers enhanced error-checking and code analysis, enabling developers to catch errors earlier in the development process. TypeScript also includes features like interfaces and type definitions, making code more maintainable and scalable."
   },
   {
     "id": 4,
-    "name": "Python",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "name": "Python3",
+    "thumbnail": "/assets/images/python3.jpeg",
+    "link": "https://nextjs.org/",
+    "description": "Python 3 is a high-level, interpreted programming language known for its simplicity and readability. It offers a vast standard library and supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python 3 is widely used for web development, data analysis, artificial intelligence, machine learning, scientific computing, and more."
   },
   {
     "id": 5,
     "name": "JavaScript",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/javascript.png",
+    "link": "https://nextjs.org/",
+    "description": "JavaScript is a high-level, interpreted programming language used to create dynamic and interactive web content. It is designed to be run on the client-side in a web browser, but can also be used on the server-side. JavaScript allows for the manipulation of HTML and CSS, as well as the creation of dynamic effects and animations on web pages."
   },
   {
     "id": 6,
     "name": "PHP",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/php.jpeg",
+    "link": "https://nextjs.org/",
+    "description": "PHP is a popular server-side scripting language used for web development. It is designed to be simple, efficient, and easy to learn. PHP is used to create dynamic web pages and applications, and can interact with databases and other technologies to provide robust functionality."
   },
   {
     "id": 7,
     "name": "HTML",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/html.png",
+    "link": "https://nextjs.org/",
+    "description": "HTML (Hypertext Markup Language) is the standard language used to create web pages. It is used to structure and format content on the internet, including text, images, and multimedia. HTML is written using tags and attributes that define the appearance and functionality of web pages."
   },
   {
     "id": 8,
     "name": "CSS",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/css.png",
+    "link": "https://nextjs.org/",
+    "description": "Cascading Style Sheets (CSS) is a language used to describe the presentation of HTML and XML documents. It controls the layout, formatting, and styling of web pages. CSS is used to separate the content from the presentation of the web pages, allowing for greater flexibility and ease of maintenance."
   },
   {
     "id": 9,
     "name": "noSQL",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/nosql.png",
+    "link": "https://nextjs.org/",
+    "description": "NoSQL (short for not only SQL) is a type of database management system that doesn't use the traditional relational database tables and SQL language. Instead, NoSQL databases use various data models and methods for storing and retrieving data, such as key-value, document, graph, and column-family stores. NoSQL databases are often used for large-scale, high-performance, and distributed applications, where flexibility, scalability, and speed are more important than strict data consistency."
   },
   {
     "id": 10,
     "name": "SQL",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/sql.png",
+    "link": "https://nextjs.org/",
+    "description": "Structured Query Language (SQL) is a standard programming language used to manage and manipulate relational databases. It provides a set of commands to insert, update, delete, and query data in a database. SQL is commonly used in web development, data science, and other fields where data management and analysis are required."
   },
   {
     "id": 11,
     "name": "TailwindCSS",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/tailwindcss.png",
+    "link": "https://nextjs.org/",
+    "description": "Tailwind CSS is a utility-first CSS framework. It provides a set of pre-defined classes to quickly style HTML elements without writing custom CSS. The framework emphasizes flexibility and can be easily customized to match the design requirements of any project."
   },
   {
     "id": 12,
     "name": "Node.js",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/nodejs.png",
+    "link": "https://nextjs.org/",
+    "description": "Node.js is an open-source, cross-platform, server-side JavaScript runtime environment. It allows developers to use JavaScript on the server-side, making it possible to build scalable and high-performance web applications. Node.js is built on top of the V8 JavaScript engine from Google Chrome, providing a powerful and efficient runtime environment."
   },
   {
     "id": 13,
     "name": "Express.js",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/expressjs.webp",
+    "link": "https://nextjs.org/",
+    "description": "Express.js is a popular web framework for Node.js. It provides a simple and flexible way to build web applications and APIs. With its middleware system and robust routing capabilities, Express.js makes it easy to handle HTTP requests and responses in Node.js."
   },
   {
     "id": 14,
     "name": "Sequelize",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/sequelizejs.png",
+    "link": "https://nextjs.org/",
+    "description": "Sequelize is an Object-Relational Mapping (ORM) tool for Node.js. It allows developers to interact with relational databases, such as PostgreSQL, MySQL, and SQLite, using JavaScript syntax. Sequelize handles the mapping of tables to objects, making it easier to create, read, update, and delete data from the database."
   },
   {
     "id": 15,
     "name": "Mongoose",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/mongoose.jpeg",
+    "link": "https://nextjs.org/",
+    "description": "Mongoose is a popular object modeling tool for Node.js that provides a straight-forward and schema-based solution to model application data. It is designed to work with MongoDB and provides powerful features like validation, middleware, query building, and more. Mongoose also allows for easy data manipulation and querying using JavaScript functions and syntax."
   },
   {
     "id": 16,
     "name": "MongoDB",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/mongodb.jpeg",
+    "link": "https://nextjs.org/",
+    "description": "MongoDB is a NoSQL database that stores data in the form of documents in a flexible, JSON-like format. It is known for its scalability, performance, and ease of use. MongoDB also provides powerful querying and indexing capabilities, making it a popular choice for applications that require fast, efficient data retrieval."
   },
   {
     "id": 17,
     "name": "PostgreSQL",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/postgresql.png",
+    "link": "https://nextjs.org/",
+    "description": "PostgreSQL is a popular open-source relational database management system. It is known for its ability to handle complex queries and data types while providing excellent performance and reliability. PostgreSQL supports features such as ACID compliance, foreign keys, and indexing for efficient data retrieval."
   },
   {
     "id": 18,
-    "name": "Ajax",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "name": "Redux",
+    "thumbnail": "/assets/images/redux.png",
+    "link": "https://nextjs.org/",
+    "description": "Redux is a predictable state container for JavaScript applications. It helps to manage the state of an application in a more organized and efficient way. Redux provides a single source of truth for the entire application, making it easier to debug and maintain."
   },
   {
     "id": 19,
     "name": "Axios",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/axios.png",
+    "link": "https://nextjs.org/",
+    "description": "Axios is a popular Promise-based HTTP client for making asynchronous requests in the browser and Node.js. It can be used to perform HTTP requests to APIs and can handle request and response interceptors, automatic transformation of JSON data, and cancellation of requests. With its simple and intuitive API, Axios makes it easy to work with HTTP requests in JavaScript applications."
   },
   {
     "id": 20,
     "name": "Git",
-    "thumbnail": "/assets/images/nextjs.jpeg",
-    "link": "https://nextjs.org/"
+    "thumbnail": "/assets/images/git.png",
+    "link": "https://nextjs.org/",
+    "description": "Git is a distributed version control system used for tracking changes in code during software development. It allows multiple developers to work on a project simultaneously and provides features such as branching, merging, and version history. It's widely used in the software development industry and has become a standard tool for managing source code."
   }
 ]
