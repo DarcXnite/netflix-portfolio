@@ -17,7 +17,7 @@ const CardLists: React.FC<CardListsProps> = ({ title, details }) => {
         </p>
         <div className='grid grid-cols-4 gap-2'>
           {details.map(item => (
-            <Card key={item.id} details={item} />
+            <Card key={item.id} details={item} data={details} />
           ))}
         </div>
       </div>

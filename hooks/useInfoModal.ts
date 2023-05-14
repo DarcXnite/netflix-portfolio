@@ -6,6 +6,7 @@ export interface ModalStoreInterface {
     id?: number
     fName?: string
     lName?: string
+    name?: string
     description?: string
     link?: string
     github?: string
