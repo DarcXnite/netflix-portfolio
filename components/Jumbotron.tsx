@@ -12,7 +12,7 @@ const Jumbotron: React.FC<JumbotronProps> = ({ bio }) => {
   const { openModal } = useInfoModal()
 
   const handleOpenModal = useCallback(() => {
-    openModal(0, bio)
+    openModal(1, bio)
   }, [openModal, bio])
 
   return (
@@ -33,7 +33,7 @@ const Jumbotron: React.FC<JumbotronProps> = ({ bio }) => {
         <p className='text-white text-[8px] md:text-lg mt-3 md:mt-8 w-[90%] md:w-[80%] lg:w-[50%] drop-shadow-xl'>
           I am a developer from Chicago with a bachelor's degree in fine arts. I
           specialize mostly in front end development, but am well-rounded in the
-          MERN stack.
+          MERN stack. {'(This portfolio is still a WIP.)'}
         </p>
         <div className='flex flex-row items-center mt-3 md:mt-4 gap-3'>
           <button

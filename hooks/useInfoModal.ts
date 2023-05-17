@@ -23,7 +23,7 @@ const useInfoModal = create<ModalStoreInterface>(set => ({
   details: {},
   isOpen: false,
   openModal: (id: number, data: object[]) =>
-    set({ isOpen: true, details: data[id] }),
+    set({ isOpen: true, details: data[id - 1] }),
   closeModal: () => set({ isOpen: false, id: undefined }),
 }))
 
