@@ -1,5 +1,6 @@
 import useInfoModal from '@/hooks/useInfoModal'
 import React, { useCallback, useRef } from 'react'
+import Link from 'next/link'
 
 import { BsInfoCircle } from 'react-icons/bs'
 
@@ -36,6 +37,11 @@ const Jumbotron: React.FC<JumbotronProps> = ({ bio }) => {
           MERN stack. {'(This portfolio is still a WIP.)'}
         </p>
         <div className='flex flex-row items-center mt-3 md:mt-4 gap-3'>
+          <Link href='/assets/files/Davis_Resume_2023v3.pdf' download>
+            <div className='bg-white rounded-md py-1 md:py-2 px-2 md:px-4 w-auto text-xs lg:text-lg font-semibold flex flex-row items-center hover:bg-neutral-300 transition cursor-pointer'>
+              Resume
+            </div>
+          </Link>
           <button
             onClick={handleOpenModal}
             className='bg-white text-white bg-opacity-30 rounded-md py-1 md:py-2 px-2 md:px-4 w-auto text-xs lg:text-lg font-semibold flex flex-row items-center hover:bg-opacity-20 transition'

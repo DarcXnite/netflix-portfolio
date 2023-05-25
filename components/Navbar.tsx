@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { BsChevronDown, BsGithub, BsLinkedin } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineMail, AiOutlineDownload } from 'react-icons/ai'
 
 import MobileMenu from './MobileMenu'
 import NavbarItem from './NavbarItem'
@@ -85,6 +85,16 @@ const Navbar = () => {
               <AiOutlineMail size={30} />
             </a>
           </div>
+          <Link
+            href='/assets/files/Davis_Resume_2023v3.pdf'
+            download
+            target='_blank'
+          >
+            <div className='bg-white text-white bg-opacity-30 rounded-md py-1 md:py-2 px-2 md:px-4 w-auto text-xs lg:text-lg font-semibold flex flex-row items-center hover:bg-opacity-20 transition cursor-pointer'>
+              <AiOutlineDownload className='mr-2' size={30} />
+              Resume
+            </div>
+          </Link>
         </div>
       </div>
     </nav>
